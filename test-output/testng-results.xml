@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smoke_suite" duration-ms="161" started-at="2021-07-07T05:16:24Z" finished-at="2021-07-07T05:16:24Z">
+    <groups>
+      <group name="smoke">
+        <method signature="SampleTest.display4(java.lang.String)[pri:0, instance:testng.SampleTest@6d4b1c02]" name="display4" class="testng.SampleTest"/>
+        <method signature="SampleTest.sendMessage1(java.lang.String, java.lang.String)[pri:0, instance:testng.SampleTest@6d4b1c02]" name="sendMessage1" class="testng.SampleTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="My first test" duration-ms="161" started-at="2021-07-07T05:16:24Z" finished-at="2021-07-07T05:16:24Z">
+      <class name="testng.SampleTest">
+        <test-method status="PASS" signature="display4(java.lang.String)[pri:0, instance:testng.SampleTest@6d4b1c02]" name="display4" duration-ms="18" started-at="2021-07-07T10:46:24Z" data-provider="usernames" finished-at="2021-07-07T10:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashanthi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display4 -->
+        <test-method status="PASS" signature="display4(java.lang.String)[pri:0, instance:testng.SampleTest@6d4b1c02]" name="display4" duration-ms="4" started-at="2021-07-07T10:46:24Z" data-provider="usernames" finished-at="2021-07-07T10:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirisha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display4 -->
+        <test-method status="PASS" signature="display4(java.lang.String)[pri:0, instance:testng.SampleTest@6d4b1c02]" name="display4" duration-ms="18" started-at="2021-07-07T10:46:24Z" data-provider="usernames" finished-at="2021-07-07T10:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prathap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display4 -->
+        <test-method status="PASS" signature="sendMessage1(java.lang.String, java.lang.String)[pri:0, instance:testng.SampleTest@6d4b1c02]" name="sendMessage1" duration-ms="7" started-at="2021-07-07T10:46:24Z" data-provider="testdata" finished-at="2021-07-07T10:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashanthi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prashanthi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage1 -->
+        <test-method status="PASS" signature="sendMessage1(java.lang.String, java.lang.String)[pri:0, instance:testng.SampleTest@6d4b1c02]" name="sendMessage1" duration-ms="15" started-at="2021-07-07T10:46:24Z" data-provider="testdata" finished-at="2021-07-07T10:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234!@3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage1 -->
+        <test-method status="PASS" signature="sendMessage1(java.lang.String, java.lang.String)[pri:0, instance:testng.SampleTest@6d4b1c02]" name="sendMessage1" duration-ms="9" started-at="2021-07-07T10:46:24Z" data-provider="testdata" finished-at="2021-07-07T10:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prathap]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage1 -->
+      </class> <!-- testng.SampleTest -->
+    </test> <!-- My first test -->
+  </suite> <!-- smoke_suite -->
+</testng-results>

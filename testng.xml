@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoke_suite">
+
+	<groups> 
+	<run> 
+	<include name = "smoke">
+	</include> 
+	</run> 
+	</groups>
+<!-- 	<parameter name="emailid" value="prashanthi123@gmail.com" />
+ -->	
+	<test name="My first test in chrome browser">
+
+		<classes>
+			<class name="testng.SampleTest">
+			
+				
+			</class>
+		</classes>
+	</test>
+	
+	<test name="My first  test in firefox browser">
+
+		<classes>
+			<class name="testng.SampleTest">
+			
+				
+			</class>
+		</classes>
+	</test>
+</suite>
